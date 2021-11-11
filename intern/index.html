@@ -83,7 +83,12 @@
            
           }
            
-          
+         document.onclick=function(ev){
+            var alert1=document.getElementById('alert');
+alert1.innerHTML = null;
+alert1.style.padding="0px";
+
+} 
 
     document.getElementById("btn").addEventListener("click",makerequest);
                function makerequest(e){
